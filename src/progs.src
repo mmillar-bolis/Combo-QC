@@ -1,14 +1,16 @@
-../progs.dat
+../bin/progs.dat
 
 defs.qc
-extras/extras_defs.qc   // pOx - additions
+
+// Additions by p0x
+extras/extras_defs.qc
 
 gyro/gyro_main.qc
 gyro/gyro_physics.qc
 gyro/gyro_forces.qc
 gyro/gyro_user.qc
 
-//~ start
+// Frikbot
 frikbot/mathlib.qc
 waypoints/map_dm1.qc
 waypoints/map_dm2.qc
@@ -18,14 +20,14 @@ waypoints/map_dm5.qc
 waypoints/map_dm6.qc
 frikbot/bot.qc
 frikbot/bot_way.qc
-frikbot/bot_fight.qc 
+frikbot/bot_fight.qc
 frikbot/bot_ai.qc
 frikbot/bot_misc.qc
 frikbot/bot_phys.qc
 frikbot/bot_move.qc
 frikbot/bot_ed.qc
-//~ end
 
+// Main code
 subs.qc
 fight.qc
 ai.qc
@@ -42,6 +44,7 @@ triggers.qc
 plats.qc
 misc.qc
 
+// Monsters
 monsters/ogre.qc
 monsters/fiend.qc
 monsters/shambler.qc
@@ -52,26 +55,30 @@ monsters/rottweiler.qc
 monsters/zombie.qc
 monsters/cthon.qc
 
-monsters/spawn.qc			// registered
-monsters/hellknight.qc		// registered
-monsters/rotfish.qc			// registered
-monsters/vore.qc			// registered
-monsters/enforcer.qc		// registered
-monsters/shub.qc			// registered
+// Monsters - registered
+monsters/spawn.qc
+monsters/hellknight.qc
+monsters/rotfish.qc
+monsters/vore.qc
+monsters/enforcer.qc
+monsters/shub.qc
 
-skins.qc		// 1997-12-30 skin support by Maddes
+// Skin Support by Maddes
+skins.qc
 
-rules.qc		// 1998-09-15 Two minute warning by Maddes
-				// 2000-07-15 Restructured fraglimit and timelimit by Maddes
+// Two Minute warning, restructured frag and time limit by Maddes
+rules.qc
 
-info.qc			// 1999-02-02 Enhanced info system by Maddes
+// Enhanced info system by Maddes
+info.qc
 
-debug.qc		// 1999-02-20 Additional debug functions by Maddes
-				// 1999-02-20 Functions to locate map bugs by Maddes
+// Additional debug functions by Maddes
+debug.qc
 
-resume.qc		// 1999-06-03 Resume function by  Jim Steers/Maddes
+// Resume function by Jim Steers/Maddes
+resume.qc
 
-// pOx  - additions (see each file for info)
+// Extra additions by p0x
 extras/extras_subs.qc
 extras/extras_train.qc
 extras/extras_buttons.qc
