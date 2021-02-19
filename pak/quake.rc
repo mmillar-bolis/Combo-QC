@@ -4,6 +4,45 @@ exec default.cfg
 // load the last saved configuration
 exec config.cfg
 
+// adds a bot in DM, in teamplay this adds a bot to your team
+alias "dm_addbot" "impulse 100"
+
+// in teamplay this adds a bot to the opposite team
+alias "dm_addenemy" "impulse 101"
+
+// removes a bot from DM
+alias "dm_removebot" "impulse 102"
+
+// change viewport from player to next bot
+alias "dm_botcam" "impulse 103"
+
+//*** FrikBot WayPoint Editor commands
+
+alias "wayed" "impulse 104"
+alias "wayed_btn1" "impulse 9"
+alias "wayed_btn2" "impulse 10"
+alias "mp_client_info" "impulse 253"
+alias "mp_server_info" "impulse 254"
+alias "dm_next_skin" "impulse 200"
+alias "dm_prev_skin" "impulse 201"
+alias "dm_event_skins" "impulse 202"
+alias "dm_skincount_plus" "impulse 203"
+alias "dm_skincount_minus" "impulse 204"
+alias "dm_mnstrskin_plus" "impulse 213"
+alias "dm_mnstrskin_minus" "impulse 214"
+alias "dm_mnstrskin_type" "impulse 215"
+alias "autoaim_correction" "impulse 210"
+alias "ai_water_aware" "impulse 211"
+alias "drown_depletes_armor" "impulse 212"
+alias "show_pos" "impulse 199"
+alias "ai_toggle" "impulse 198"
+alias "show_triggers" "impulse 197"
+alias "test_multi_shots" "impulse 150"
+alias "toggle_player_model" "impulse 151"
+
+// ensure campaign mode is set by default
+deathmatch 0
+
 // run a user script file if present
 exec autoexec.cfg
 
